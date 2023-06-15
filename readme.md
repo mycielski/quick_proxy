@@ -7,7 +7,7 @@ This repository contains Terraform code for creating a Squid proxy on AWS.
 1. Create a `terraform.tfvars` file with the following content:
 
     ```terraform
-    aws_access_key = # your profile from ~/.aws/credentials
+    profile = # your profile from ~/.aws/credentials
     region = # aws region to deploy into
     instance_type = # instance type to use, fyi works on t4g.nano
     proxy_username = # username used to connect to proxy
