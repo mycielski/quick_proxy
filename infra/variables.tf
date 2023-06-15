@@ -36,7 +36,7 @@ variable "proxy_password" {
 }
 
 variable "proxy_port" {
-    type        = number
-    description = "The port for the proxy"
-  default = 3128
+  type        = number
+  description = "The port for the proxy"
+  default     = 3128
 }
