@@ -1,6 +1,6 @@
 # Squid proxy on AWS
 
-This repository contains Terraform code for creating a Squid proxy on AWS.
+This repository contains Terraform code for creating a [Squid](http://www.squid-cache.org/) proxy on AWS.
 
 ## Usage
 
@@ -16,4 +16,3 @@ This repository contains Terraform code for creating a Squid proxy on AWS.
 2. Adjust `squid.conf` file to match your needs.
 3. `terraform init` and `terraform apply`.
 4. Enjoy your new proxy!
-
